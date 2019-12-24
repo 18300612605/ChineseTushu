@@ -1,0 +1,22 @@
+<!--pages/fenliepaihang/fenliepaihang.wxml-->
+<view class="container">
+  <view class="dibukuang">
+    <view class="dibuinner" wx:for="{{4}}" wx:key="{{index}}">
+      <view class="dileft">
+        <image class="dileftimg" src="../../tu/paihang15.png"></image>
+      </view>
+      <view class="firight">
+        <view class="rightinner">
+          <view class="rexiaoshang">
+            <image class="shushenglue" src="../../tu/省略号.png"></image>
+            <text class="shumingbiaoti">三体: 死神永生</text>
+            <text>作者: 刘慈心</text>
+          </view>
+          <text class="rexiaoxia">刘慈欣创建的长篇科幻小说地球往事三部曲的第三部分作品...</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+    

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "fenleipaihang":"../../assembly/fenleipaihang/fenleipaihang",
+    "panhanglist":"../../assembly/panhanglist/panhanglist",
+    "tushulist":"../../assembly/tushulist/tushulist"
+  }
+}

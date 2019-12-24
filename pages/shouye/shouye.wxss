@@ -1,0 +1,137 @@
+/* pages/shouye/shouye.wxss */
+.container{
+  position: relative;
+  background: rgb(56, 53, 53);
+  margin-bottom: 100px;
+}
+.godingpingmu{
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  height: 80rpx;
+  width: 80rpx;
+}
+.manwidth{
+  width: 100%;
+}
+.allWidth{
+  width: 90%;
+  margin: 0 auto;
+}
+.headList{
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.leftImg{
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.rightImg{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+.searchBox{
+  height: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(85, 82, 82, 0.396);
+}
+.searchimg{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  float: left;
+}
+.searchimg>image{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.searchOwn{
+  height: 50px;
+  float: left;
+}
+.redianSearch{
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.redianSearchinder{
+  padding: 5px 10px 5px 10px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  margin-left: 10px;
+  float: left;
+  margin-bottom: 10px;
+}
+.jiadibian{
+  border-bottom: 1px solid #cdcdcd;
+}
+.dibu{
+  width: 100%;
+  overflow: scroll;
+}
+.dibukuang{
+  width: 3400rpx;
+  height: 400rpx;
+}
+.dibuinner{
+  margin-top: 80rpx;
+  width: 560rpx;
+  height: 260rpx;
+  background: rgb(70, 70, 82);
+  margin-left: 40rpx;
+  border-radius: 20rpx;
+  display: flex;
+  float: left;
+}
+.dileft{
+  width: 200rpx;
+  height: 260rpx;
+  position: relative;
+}
+.dileftimg{
+  width: 180rpx;
+  height: 260rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  bottom: 20rpx;
+  right: 0rpx;
+}
+.firight{
+  width: 360rpx;
+  height: 260rpx;
+}
+.rightinner{
+  width: 320rpx;
+  height: 220rpx;
+  font-size: 22rpx;
+  color: #cdcdcd;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.rexiaoshang{
+  width: 320rpx;
+  height: 132rpx;
+  border-bottom: 2rpx solid #cdcdcd;
+}
+.shushenglue{
+  width: 60rpx;
+  height: 60rpx;
+  float: right;
+}
+.rexiaoxia{
+  width: 320rpx;
+  height: 88rpx;
+}
+.shumingbiaoti{
+  display: block;
+  font-size: 36rpx;
+}

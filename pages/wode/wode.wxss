@@ -1,0 +1,7 @@
+/* pages/wode/wode.wxss */
+.container{
+  background: rgb(56, 53, 53);
+}
+.guige{
+  width: 90%;
+}

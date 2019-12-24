@@ -1,0 +1,117 @@
+/* pages/tansuo/tansuo.wxss */
+.container{
+  position: relative;
+  background: rgb(56, 53, 53);
+}
+.godingpingmu{
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  height: 80rpx;
+  width: 80rpx;
+}
+.guige{
+  width: 90%;
+  margin: 0 auto;
+}
+.guigetuo{
+  width: 300rpx;
+  margin: 0 auto;
+  padding-bottom: 260rpx;
+}
+.guigesan{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 260rpx;
+  overflow: hidden;
+}
+.tou{
+  height: 60rpx;
+  position: relative;
+  margin-bottom: 60rpx;
+}
+.topbiaoti{
+  height:60rpx;
+  font-size: 38rpx;
+  color: white;
+  text-align: center;
+}
+.toptu{
+  height:60rpx;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.toptu>view{
+  width: 60rpx;
+  height:60rpx;
+  float: right;
+}
+.jiabiankuang{
+  border: 2px solid red;
+}
+.toptu>view>image{
+  width: 60rpx;
+  height:60rpx;
+}
+.zhongtu{
+  height: 500rpx;
+}
+.zhongtu>image{
+  width: 300rpx;
+  height: 500rpx;
+}
+.shuming{
+  height: 40rpx;
+  text-align: center;
+  padding-top:20rpx; 
+  padding-bottom:20rpx; 
+}
+.shuming>text{
+  font-weight: bold;
+  color: white;
+}
+.zuozhe{
+  height: 40rpx;
+  color: white;
+  font-size: 24rpx;
+  text-align: center;
+}
+.xian{
+  height: 40rpx;
+  border-bottom: 1px solid white;
+  margin-bottom: 20rpx;
+}
+.shitu{
+  height: 60rpx;
+  text-align: center;
+}
+.shitu>image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.duoshaoren{
+  height: 40rpx;
+  color: white;
+  font-size: 16rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.one{
+  width: 240rpx;
+  height: 400rpx;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  float: left;
+}
+.one>image{
+  width: 240rpx;
+  height: 320rpx;
+}
+.one>view{
+  font-size: 28rpx;
+  color: white;
+  text-align: center;
+}

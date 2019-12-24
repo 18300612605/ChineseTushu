@@ -1,0 +1,8 @@
+<!--assembly/tushulist/tushulist.wxml-->
+<view class="container"  wx:for="{{list}}" wx:key="{{index}}">
+  <view class="sanfen" wx:for="{{item.hang}}" wx:key="{{index}}">
+    <image src="{{item.tu}}"></image>
+    <text class="worksName">{{item.zi}}</text>
+    <text class="renName">{{item.zuo}}</text>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--assembly/fenleipaihang/fenleipaihang.wxml-->
+<view class="container">
+  <view class="left" bindtap="dianji" hover-class="dianhoustyle" hover-start-time="0" hover-stay-time="50">{{listbie}}</view>
+  <view wx:if="{{xiaoshi? false : true}}" class="right" bindtap="dianji" hover-class="dianhoustyle" hover-start-time="0" hover-stay-time="50">
+    <text class="zyouleft">查看全部</text>
+    <image class="zyouright" src="../../tu/右-箭头.png"></image>
+  </view>
+</view>

@@ -1,0 +1,61 @@
+<!--pages/shouye/shouye.wxml-->
+<view class="container">
+  <image class="godingpingmu" src="../../tu/paihang4.png"></image>
+  <view class="allWidth">
+    <view class="headList">
+      <image class="leftImg" src="http://img3.imgtn.bdimg.com/it/u=2455100451,3980453752&fm=26&gp=0.jpg"></image>
+      <image class="rightImg" src="http://img3.imgtn.bdimg.com/it/u=2455100451,3980453752&fm=26&gp=0.jpg"></image>
+    </view>
+    <view class="searchBox">
+      <view class="searchimg">
+        <image src="http://img3.imgtn.bdimg.com/it/u=2455100451,3980453752&fm=26&gp=0.jpg"></image>
+      </view>
+      <input placeholder="搜索..." class="searchOwn"></input>
+    </view>
+    <fenleipaihang listbie="{{fenliepaihang}}"></fenleipaihang>
+  </view>
+  <view class="manwidth">
+    <panhanglist list="{{fenlielist}}"></panhanglist>
+  </view>
+
+  <view class="allWidth">
+    <fenleipaihang listbie="{{zuozhepaihang}}"></fenleipaihang>
+  </view>
+  <view class="manwidth">
+    <panhanglist list="{{zuozhelist}}"></panhanglist>
+  </view>
+
+  <view class="allWidth jiadibian">
+    <fenleipaihang listbie="{{xinfabu}}"></fenleipaihang>
+    <tushulist list="{{xinfabulist}}"></tushulist>
+  </view>
+
+  <view class="allWidth">
+    <fenleipaihang  listbie="{{remensousuo}}" xiaoshi="xiaoshi"></fenleipaihang>
+    <view class="redianSearch jiadibian">
+      <view class="redianSearchinder" wx:for="{{remenlist}}" wx:key="{{index}}">
+        <text>{{item.zi}}</text>
+      </view>
+    </view>
+    <fenleipaihang listbie="{{rexiao}}"></fenleipaihang>
+  </view>
+  <view class="dibu">
+    <view class="dibukuang">
+      <view class="dibuinner" wx:for="{{4}}" wx:key="{{index}}">
+        <view class="dileft">
+          <image class="dileftimg" src="../../tu/paihang15.png"></image>
+        </view>
+        <view class="firight">
+          <view class="rightinner">
+            <view class="rexiaoshang">
+              <image class="shushenglue" src="../../tu/省略号.png"></image>
+              <text class="shumingbiaoti">三体: 死神永生</text>
+              <text>作者: 刘慈心</text>
+            </view>
+            <text class="rexiaoxia">刘慈欣创建的长篇科幻小说地球往事三部曲的第三部分作品...</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

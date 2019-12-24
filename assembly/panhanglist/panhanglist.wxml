@@ -1,0 +1,9 @@
+<!--assembly/panhanglist/panhanglist.wxml-->
+<view class="container">
+  <view class="panhanglistinner">
+    <view bindtap="dianji" hover-class="dianhoustyle" hover-start-time="0" hover-stay-time="50" class="mouyixiang" wx:for="{{list}}" wx:key="{{index}}">
+      <image src="{{item.tu}}"></image>
+      <text>{{item.zi}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,56 @@
+/* pages/fenliepaihang/fenliepaihang.wxss */
+.container{
+  background: rgb(56, 53, 53);
+}
+.dibuinner{
+  margin-top: 80rpx;
+  width: 90%;
+  height: 260rpx;
+  background: rgb(70, 70, 82);
+  margin-left: 40rpx;
+  border-radius: 20rpx;
+  display: flex;
+}
+.dileft{
+  width: 200rpx;
+  height: 260rpx;
+  position: relative;
+}
+.dileftimg{
+  width: 180rpx;
+  height: 260rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  bottom: 20rpx;
+  right: 0rpx;
+}
+.firight{
+  flex: 1;
+  height: 260rpx;
+}
+.rightinner{
+  width: 90%;
+  height: 220rpx;
+  font-size: 22rpx;
+  color: #cdcdcd;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.rexiaoshang{
+  width: 100%;
+  height: 132rpx;
+  border-bottom: 2rpx solid #cdcdcd;
+}
+.shushenglue{
+  width: 60rpx;
+  height: 60rpx;
+  float: right;
+}
+.rexiaoxia{
+  width: 320rpx;
+  height: 88rpx;
+}
+.shumingbiaoti{
+  display: block;
+  font-size: 36rpx;
+}

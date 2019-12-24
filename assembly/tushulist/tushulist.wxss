@@ -1,0 +1,22 @@
+/* assembly/tushulist/tushulist.wxss */
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.sanfen{
+  width:180rpx;
+  height: 400rpx;
+  color: white;
+}
+.sanfen>image{
+  width:180rpx;
+  height: 250rpx;
+  border-radius: 10px;
+}
+.worksName{
+  font-size: 13px;
+}
+.renName{
+  font-size: 10px;
+  display: block;
+}

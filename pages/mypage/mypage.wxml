@@ -1,0 +1,6 @@
+<!--pages/mypage/mypage.wxml-->
+<view class="container">
+  <view class="guige">
+    <view class=""><text>我的</text></view>
+  </view>
+</view>

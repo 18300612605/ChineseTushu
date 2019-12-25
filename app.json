@@ -1,8 +1,10 @@
 {
   "pages": [
-    "pages/mypage/mypage",
-    "pages/fenliepaihang/fenliepaihang",
     "pages/shouye/shouye",
+    "pages/shujieshao/shujieshao",
+    "pages/fenliepaihang/fenliepaihang",
+    "pages/searchpage/searchpage",
+    "pages/mypage/mypage",
     "pages/tansuo/tansuo",
     "pages/index/index",
     "pages/logs/logs"
@@ -10,8 +12,27 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationStyle":"default"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/tansuo/tansuo",
+        "text": "探索"
+      },
+      {
+        "pagePath": "pages/searchpage/searchpage",
+        "text": "搜索"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

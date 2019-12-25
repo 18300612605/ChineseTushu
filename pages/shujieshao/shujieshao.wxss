@@ -1,0 +1,60 @@
+/* pages/shujieshao/shujieshao.wxss */
+.container{
+  background: rgb(56, 53, 53);
+}
+.guige{
+  width: 90%;
+}
+.shang{
+  margin-top: 40rpx;
+  display: flex;
+  margin-bottom: 80rpx;
+}
+.shufengmiantu{
+  width: 300rpx;
+  height: 400rpx;
+  margin-right: 20rpx;
+}
+.touright{
+  flex: 1;
+  height: 400rpx;
+  position: relative;
+}
+.touright>text{
+  display: block;
+}
+.shuming{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: white;
+}
+.zuozhe{
+  font-size: 34rpx;
+  color: rgba(138, 132, 132, 0.986);
+}
+.jianshu{
+  font-size: 30rpx;
+  color: rgba(138, 132, 132, 0.986);
+}
+.touxia{
+  overflow: hidden;
+  position: absolute;
+  bottom: 20rpx;
+}
+.xingxing{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+  margin-top: 5rpx;
+}
+.tushupingfen{
+  float: left;
+  font-size: 40rpx;
+  margin-left: 20rpx;
+  color: rgb(255, 217, 0);
+}
+.gongneng{
+  height: 140rpx;
+  border-top: 2rpx solid rgba(138, 132, 132, 0.986);
+  border-bottom: 2rpx solid rgba(138, 132, 132, 0.986);
+}

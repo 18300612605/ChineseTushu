@@ -1,0 +1,35 @@
+<!--pages/searchpage/searchpage.wxml-->
+<view class="container">
+  <view class="guige">
+    <view class="searchlan">
+      <text class="removevalue">取消</text>
+      <view class="searchinput">
+        <image class="serachtu" src="../../tu/搜索.png"></image>
+        <input placeholder="搜索..." class="serachinputright"></input>
+      </view>
+    </view>
+    <view class="remen">
+      <image src="../../tu/右-箭头.png"></image>
+      <text class="searchquanbu">查看全部</text>
+      <text class="remensearch">热门搜索</text>
+    </view>
+    <view class="remenshu">
+      <view class="oneshu" wx:for="{{list}}" wx:key="{{index}}">
+        <image class="oneshutu" src="{{item.tu}}"></image>
+        <text class="shuming">{{item.shuname}}</text>
+        <text class="renming">{{item.zuoname}}</text>
+      </view>
+    </view>
+    <view class="lishi">
+      <image class="shanchulishitu" src="../../tu/删除.png"></image>
+      <text class="lishizi">搜索历史</text>
+    </view>
+    <view class="lishiinner">
+      <text class="onelishi">历史记录</text>
+      <text class="onelishi">自由人像雕塑</text>
+      <text class="onelishi">人文环境</text>
+    </view>
+
+
+  </view>
+</view>

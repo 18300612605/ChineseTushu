@@ -33,7 +33,7 @@
   <view class="allWidth">
     <fenleipaihang  listbie="{{remensousuo}}" xiaoshi="xiaoshi"></fenleipaihang>
     <view class="redianSearch jiadibian">
-      <view class="redianSearchinder" wx:for="{{remenlist}}" wx:key="{{index}}">
+      <view class="redianSearchinder" wx:for="{{remenlist}}" wx:key="{{index}}" style="border: 1px solid red;">
         <text>{{item.zi}}</text>
       </view>
     </view>

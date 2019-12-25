@@ -64,8 +64,7 @@
 }
 .redianSearchinder{
   padding: 5px 10px 5px 10px;
-  color: red;
-  border: 1px solid red;
+  color: hsla(268, 78%, 45%, 0.959);
   border-radius: 20px;
   margin-left: 10px;
   float: left;

@@ -1,0 +1,22 @@
+<!--pages/shujieshao/shujieshao.wxml-->
+<view class="container">
+  <view class="guige">
+    <view class="shang">
+      <image class="shufengmiantu" src="../../tu/paihang15.png"></image>
+      <view class="touright">
+        <text class="shuming">三体:死神永生</text>
+        <text class="zuozhe">作者: 刘慈心</text>
+        <text class="jianshu">刘慈欣创作的长篇科幻小说地球往事三部曲的第三部作品...</text>
+        <view class="touxia">
+          <image class="xingxing" src="../../tu/星星.png" wx:for="{{5}}" wx:key="{{index}}"></image>
+          <text class="tushupingfen">5.0</text>
+        </view>
+      </view>
+    </view>
+    <view class="gongneng">
+      <view class="sanfen"></view>
+      <view class="sanfen"></view>
+      <view class="sanfen"></view>
+    </view>
+  </view>
+</view>

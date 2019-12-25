@@ -1,7 +1,130 @@
 /* pages/mypage/mypage.wxss */
 .container{
   background: rgb(56, 53, 53);
+  padding-bottom: 236rpx;
 }
 .guige{
   width: 90%;
+}
+.wode{
+  height: 80rpx;
+  text-align: center;
+  margin-bottom: 40rpx;
+  color: white;
+}
+.wode>text{
+  font-size: 50rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  height: 80rpx;
+}
+.wode>image{
+  margin-top: 10rpx;
+  height: 60rpx;
+  width: 60rpx;
+  float: right;
+}
+.xinxijianshu{
+  height: 200rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+}
+.touxiang{
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 100rpx;
+}
+.touxiangright{
+  margin-left: 20rpx;
+  flex: 1;
+  height: 200rpx;
+  color: white;
+  position: relative;
+}
+.touxiangright>text{
+  display: block;
+}
+.renname{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.fenxiang{
+  height:60rpx;
+  width: 160rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  border: 2rpx solid white;
+  position: absolute;
+  right: 0rpx;
+  bottom: 0rpx;
+}
+.fenxiang>image{
+  height: 40rpx;
+  width: 40rpx;
+  margin-top: 10rpx;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.geleiNumber{
+  height: 120rpx;
+  border-radius: 20rpx;
+  background: rgba(85, 82, 82, 0.396);
+  margin-bottom: 40rpx;
+  display: flex;
+}
+.geleiNumberinner{
+  flex: 1;
+  height: 90rpx;
+  margin-top: 15rpx;
+}
+.biankuang{
+  width: 2rpx;
+  height: 90rpx;
+  margin-top: 15rpx;
+  background: beige;
+}
+.shuliang{
+  font-size: 40rpx;
+  display: block;
+  color: white;
+  text-align: center;
+}
+.nazhong{
+  font-size: 24rpx;
+  display: block;
+  color: #bfbfbf;
+  text-align: center;
+}
+.gerenlei{
+  height:80rpx;
+  padding-top: 30rpx;
+  border-bottom: 2rpx solid blue;
+}
+.rightbian{
+  width: 50rpx;
+  height: 50rpx;
+  float: right;
+}
+.wodexiaoxishu{
+  display: block;
+  width: 40rpx;
+  margin-top: 10rpx;
+  height: 40rpx;
+  float: right;
+  line-height: 40rpx;
+  color: white;
+  text-align: center;
+  border-radius: 20rpx;
+  background: rgb(235, 55, 55);
+}
+.zuobian{
+  font-size: 40rpx;
+  height: 50rpx;
+  color: #bfbfbf;
+}
+.yuer{
+  height: 50rpx;
+  font-size: 40rpx;
+  color: rgb(235, 55, 55);
+  float: right;
 }

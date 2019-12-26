@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    motaixianshi:false,
+    fenxingxianshi:false
   },
 
   /**
@@ -62,5 +63,45 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  fanrushujia() {
+    if (this.data.motaixianshi === false){
+      this.setData({
+        motaixianshi: true
+      })
+    }else{
+      this.setData({
+        motaixianshi: false
+      })
+    }
+  },
+  fenxingguan() {
+    if (this.data.fenxingxianshi === false) {
+      this.setData({
+        fenxingxianshi: true
+      })
+    } else {
+      this.setData({
+        fenxingxianshi: false
+      })
+    }
+  },
+  guanNOpage(){
+    if (this.data.fenxingxianshi === true) {
+      this.setData({
+        fenxingxianshi: false
+      })
+    } else if (this.data.motaixianshi === true) {
+      this.setData({
+        motaixianshi: false
+      })
+    }else{
+
+    }
+  },
+  tiaopinglunPage(){
+    wx.navigateTo({
+      url: '/pages/pinglun/pinglun',
+    })
   }
 })

@@ -14,9 +14,97 @@
       </view>
     </view>
     <view class="gongneng">
-      <view class="sanfen"></view>
-      <view class="sanfen"></view>
-      <view class="sanfen"></view>
+      <view class="sanfen">
+        <image class="gongnengtu" src="../../tu/心.png"></image>
+        <text>收藏</text>
+      </view>
+      <view bindtap="fenxingguan" class="sanfen">
+        <image class="gongnengtu" src="../../tu/分享.png"></image>
+        <text>分享</text>
+      </view>
+      <view class="sanfen" bindtap="fanrushujia">
+        <image class="gongnengtu" src="../../tu/书架.png"></image>
+        <text>放入书架</text>
+      </view>
+    </view>
+    <view class="xiangxixinxi">
+      <text class="xingqinbiaoti">详情</text>
+      <text class="xingqinginner">与三体文明的战争使人类第一次看到了宇宙黑暗的真相, 地球文明像一个恐惧的孩子, 熄灭了寻友的篝火, 在暗夜中发抖。自以为历经沧, 其实刚刚蹒跚学步; 自以为悟出了生存竞争的秘密, 其实还远没有竞争的资格。</text>
+    </view>
+    <view class="chankanmulu">
+      <image class="chankanmuluimg" src="../../tu/右-箭头.png"></image>
+      <text class="chankanmulutext">查看目录</text>
+    </view>
+    <view class="pinglun">
+      <image class="chankanmuluimg" src="../../tu/写信.png"></image>
+      <view bindtap="tiaopinglunPage">
+        <text class="chankanmulutext">评论 </text>
+        <text class="pingluntiao">215 条评论</text>
+      </view>
+    </view>
+    <view class="pingluninner">
+      <view class="innerleft">
+        <image class="pingluninnertu" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2380657678,2976208477&fm=26&gp=0.jpg"></image>
+      </view>
+      <view class="innerright">
+        <text class="pingluninnername">你个废物</text>
+        <text class="pingluninnerzi1">大刘塑造的女性都具有明显的圣母特性, 但是本质上弱爆了。叶是文革的毒瘤, 庄是定制的禁脔, 程最经典————站在圣母和傻逼的微笑曲线上。大刘塑造的男性都具有明显的缺陷但本质上极端人性化。一身痞气的小人物大史, 最高情商让他活的最明白; 罗辑的荒唐和不羁让他成为救世主, 但也决定了他必不能善终；软弱怯懦固执的云天明, 也并无理由因为慷慨和运气就得到爱呀。但我真心理解这样的人, 这样的性格, 这样的命运。</text>
+        <view class="innerbottom">
+          <text class="pinglunxinxishu">89</text>
+          <image class="pinglunxinxi" src="../../tu/信息 (3).png"></image>
+          <text class="pinglunxinshu">134</text>
+          <image class="pinglunxin" src="../../tu/心1.png"></image>
+          <text class="pinglunriqi">12-04 21:20</text>
+        </view>
+      </view>
+    </view>
+    <view class="tuobutton">
+      <view class="leftbutton">
+        <text class="shikan">试看</text>
+      </view>
+      <view class="buttonzhong"></view>
+      <view class="rightbutton">
+        <text class="goumai">购买</text>
+      </view>
+    </view>
+  </view>
+  <view class="motaikuang" wx:if="{{motaixianshi||fenxingxianshi}}"  bindtap="guanNOpage"></view>
+  <view class="zhuti" wx:if="{{motaixianshi}}">
+    <image class="dangqianshuing" src="../../tu/paihang15.png"></image>
+    <text class="motaikuangziti">已经将这本书加入到个人书架</text>
+    <view class="quxiaomotaikuang" bindtap="fanrushujia">
+      <text>好的</text>
+    </view>
+  </view>
+  <view class="fenxiang" wx:if="{{fenxingxianshi}}">
+    <view class="guige_tuo">
+      <view class="tuichufenxiangkuang">
+        <view bindtap="fenxingguan" class="tuichufenxiang">
+          <image src="../../tu/差号.png"></image>
+        </view>
+      </view>
+      <view class="fenxianglujing">
+        <view class="yueshu">
+          <view class="baikuang">
+            <image src="../../tu/朋友圈.png"></image>
+          </view>
+        </view>
+        <view class="yueshu">
+          <view class="baikuang">
+            <image src="../../tu/qq空间.png"></image>
+          </view>
+        </view>
+        <view class="yueshu">
+          <view class="baikuang">
+            <image src="../../tu/微博.png"></image>
+          </view>
+        </view>
+        <view class="yueshu">
+          <view class="baikuang">
+            <image src="../../tu/QQ--.png"></image>
+          </view>
+        </view>
+      </view>
     </view>
   </view>
 </view>

@@ -1,6 +1,6 @@
 /* pages/mypage/mypage.wxss */
 .container{
-  background: rgb(56, 53, 53);
+  background: #21272e;
   padding-bottom: 236rpx;
 }
 .guige{

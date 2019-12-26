@@ -1,6 +1,6 @@
 /* pages/searchpage/searchpage.wxss */
 .container{
-  background: rgb(56, 53, 53);
+  background: #21272e;
 }
 .guige{
   width: 90%;

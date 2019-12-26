@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/shouye/shouye",
+    "pages/pinglun/pinglun",
     "pages/shujieshao/shujieshao",
+    "pages/shouye/shouye",
     "pages/fenliepaihang/fenliepaihang",
     "pages/searchpage/searchpage",
     "pages/mypage/mypage",
@@ -11,8 +12,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationStyle":"default"
+    "navigationBarBackgroundColor": "#ffffff"
   },
   "tabBar": {
     "list": [

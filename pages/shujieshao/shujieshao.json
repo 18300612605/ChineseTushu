@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "fenleipaihang": "../../assembly/fenleipaihang/fenleipaihang"
+  }
 }

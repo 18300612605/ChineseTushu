@@ -1,9 +1,14 @@
 /* pages/shujieshao/shujieshao.wxss */
 .container{
-  background: rgb(56, 53, 53);
+  background: #21272e;
+  position: relative;
 }
 .guige{
   width: 90%;
+}
+.guige_tuo{
+  width: 80%;
+  margin: 0 auto;
 }
 .shang{
   margin-top: 40rpx;
@@ -57,4 +62,251 @@
   height: 140rpx;
   border-top: 2rpx solid rgba(138, 132, 132, 0.986);
   border-bottom: 2rpx solid rgba(138, 132, 132, 0.986);
+  display: flex;
+  color: white;
+}
+.sanfen{
+  flex: 1;
+  height:140rpx;
+}
+.gongnengtu{
+  width: 40rpx;
+  height:40rpx;
+  margin-top: 50rpx;
+  margin-right: 20rpx; 
+}
+.sanfen>text{
+font-size: 40rpx;
+}
+.xingqinbiaoti{
+  display:block;
+  font-size: 40rpx;
+  color: white;
+}
+.xingqinginner{
+  display:block;
+  font-size: 30rpx;
+  color: #444a59;
+}
+.xiangxixinxi{
+  padding-bottom: 60rpx;
+}
+.chankanmulu{
+  height: 140rpx;
+  border-bottom: 2rpx solid #444a59;
+  border-top: 2rpx solid #444a59;
+}
+.chankanmuluimg{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-top: 50rpx;
+}
+.chankanmulutext{
+  line-height: 140rpx;
+  font-size: 40rpx;
+  color:white;
+}
+.pinglun{
+  height: 140rpx;
+}
+.pingluntiao{
+  font-size: 30rpx;
+  color: #056de0;
+}
+.pingluninner{
+  padding-bottom: 10rpx;
+}
+.pingluninnertu{
+  width: 80rpx;
+  height: 80rpx;
+}
+.pingluninner{
+  display: flex;
+}
+.innerright{
+  flex: 1;
+}
+.pingluninnerzi1{
+  display: block;
+  color: #767d97;
+  font-size: 30rpx;
+}
+.pingluninnername{
+  display: block;
+  height: 80rpx;
+  font-weight: bold;
+  color: white;
+}
+.innerbottom{
+  overflow: hidden;
+  margin-top: 40rpx;
+  padding-bottom: 46rpx;
+  border-bottom: 2rpx solid #767d97;
+}
+.pinglunxinxi{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 10rpx;
+}
+.pinglunxin{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 10rpx;
+}
+.pinglunxinshu{
+  float: right;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-right: 20rpx;
+}
+.pinglunxinxishu{
+  float: right;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.pinglunriqi{
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.tuobutton{
+  height: 160rpx;
+  display: flex;
+}
+.leftbutton{
+  height: 100rpx;
+  margin-top:30rpx;
+  background: #9295a9;
+  border-radius: 60rpx;
+  flex:4;
+  text-align: center;
+  position: relative;
+}
+.buttonzhong{
+  width: 40rpx;
+}
+.rightbutton{
+  height: 100rpx;
+  background: #fb6894;
+  margin-top:30rpx;
+  border-radius: 60rpx;
+  flex:6;
+  text-align: center;
+  position: relative;
+}
+.shikan{
+  display: block;
+  font-size: 40rpx;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  color: white;
+  transform: translateX(-50%) translateY(-50%);
+}
+.goumai{
+  display: block;
+  font-size: 40rpx;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  color: white;
+  transform: translateX(-50%) translateY(-50%);
+}
+.motaikuang{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: black;
+  opacity: 0.7;
+}
+.zhuti{
+  width: 80%;
+  background: #343745;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.dangqianshuing{
+  width: 200rpx;
+  height: 280rpx;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+.motaikuangziti{
+  width:60%;
+  margin: 0 auto;
+  display: block;
+  font-size: 40rpx;
+  color: white;
+  margin-bottom: 40rpx;
+}
+.quxiaomotaikuang{
+  width: 60%;
+  margin: 0 auto;
+  height: 100rpx;
+  border-radius: 50rpx;
+  background: #fb6894;
+  position: relative;
+  margin-bottom: 40rpx;
+}
+.quxiaomotaikuang>text{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  color: white;
+  transform: translateX(-50%) translateY(-50%);
+}
+.fenxiang{
+  width: 100%;
+  height: 300rpx;
+  background: #2d353f;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+.tuichufenxiangkuang{
+  overflow: hidden;
+}
+.tuichufenxiang{
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 25rpx;
+  background: #1b1f24;
+  float: right;
+  margin-top: 40rpx;
+}
+.tuichufenxiang>image{
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 25rpx;
+}
+.fenxianglujing{
+  margin-top: 50rpx;
+  display: flex;
+}
+.yueshu{
+  flex: 1;
+  background: red;
+  position: relative;
+}
+.baikuang{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60rpx;
+  height:60rpx;
+  background: white;
+  border-radius: 30rpx;
+}
+.baikuang>image{
+  width: 60rpx;
+  height:60rpx;
+  border-radius: 30rpx;
 }

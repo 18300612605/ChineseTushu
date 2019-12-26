@@ -1,7 +1,7 @@
 /* pages/shouye/shouye.wxss */
 .container{
   position: relative;
-  background: rgb(56, 53, 53);
+  background: #21272e;
   margin-bottom: 100px;
 }
 .godingpingmu{

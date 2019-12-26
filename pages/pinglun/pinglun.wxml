@@ -1,0 +1,21 @@
+<!--pages/pinglun/pinglun.wxml-->
+<view class="container">
+  <view class="guige">
+    <view class="pingluninner" wx:for="{{10}}" wx:key="{{index}}">
+      <view class="innerleft">
+        <image class="pingluninnertu" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2380657678,2976208477&fm=26&gp=0.jpg"></image>
+      </view>
+      <view class="innerright">
+        <text class="pingluninnername">你个废物</text>
+        <text class="pingluninnerzi1">大刘塑造的女性都具有明显的圣母特性, 但是本质上弱爆了。叶是文革的毒瘤, 庄是定制的禁脔, 程最经典————站在圣母和傻逼的微笑曲线上。大刘塑造的男性都具有明显的缺陷但本质上极端人性化。一身痞气的小人物大史, 最高情商让他活的最明白; 罗辑的荒唐和不羁让他成为救世主, 但也决定了他必不能善终；软弱怯懦固执的云天明, 也并无理由因为慷慨和运气就得到爱呀。但我真心理解这样的人, 这样的性格, 这样的命运。</text>
+        <view class="innerbottom">
+          <text class="pinglunxinxishu">89</text>
+          <image class="pinglunxinxi" src="../../tu/信息 (3).png"></image>
+          <text class="pinglunxinshu">134</text>
+          <image class="pinglunxin" src="../../tu/心1.png"></image>
+          <text class="pinglunriqi">12-04 21:20</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

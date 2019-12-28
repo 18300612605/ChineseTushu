@@ -4,6 +4,9 @@ Page({
    * 页面的初始数据
    */
   data: {
+    onezuozhepage:"/pages/oneBookAuthor/oneBookAuthor",
+    zuozhepage:"/pages/wholeAuthor/wholeAuthor",
+    shujileipage:"/pages/fenliepaihang/fenliepaihang",
     rexiao:"热销榜",
     rexiaolist: [
       { tu: "../../tu/paihang15.png", zi: "" },

@@ -1,11 +1,27 @@
-// pages/fenliepaihang/fenliepaihang.js
+// pages/myBookshelf/myBookshelf.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    liebie:"科幻"
+    list: [
+      {
+        tu: "../../tu/paihang9.png",
+        shuname: "三体: 死神永生",
+        zuoname: "刘慈心"
+      },
+      {
+        tu: "../../tu/paihang10.png",
+        shuname: "人类简史",
+        zuoname: "尤瓦尔赫拉利"
+      },
+      {
+        tu: "../../tu/paihang11.png",
+        shuname: "许三观卖血记",
+        zuoname: "余华"
+      },
+    ]
   },
 
   /**
@@ -62,10 +78,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  taishujieshao(){
-    wx.navigateTo({
-      url: '/pages/shujieshao/shujieshao',
-    })
   }
 })

@@ -1,0 +1,19 @@
+<!--pages/setUppage/setUppage.wxml-->
+<view class="container">
+  <view class="guigeyi">
+    <view class="onexiang" wx:for="{{list}}" wx:key="{{index}}">
+      <view class="rightce"  wx:if="{{item.jiantou}}">
+        <text class="rightcezi" wx:if="{{item.daishuzi}}">125MB</text>
+        <image class="righttu" src="../../tu/右-箭头.png"></image>
+      </view>
+      <view class="rightce" wx:if="{{item.anniu}}">
+        <view class="switchbutton">
+          <view class="baidian"></view>
+        </view>
+      </view>
+      <view class="leftce">
+        <text>{{item.zi}}</text>
+      </view>
+    </view>
+  </view>
+</view>

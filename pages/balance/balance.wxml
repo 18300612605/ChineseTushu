@@ -1,0 +1,13 @@
+<!--pages/balance/balance.wxml-->
+<view class="container">
+  <view class="tou">
+    <view class="giuge">
+      <text class="biaoti">我的余额(元)</text>
+      <input class="shuru"></input>
+    </view>
+  </view>
+  <view class="goumai">
+    <text class="goumaizi">充值</text>
+  </view>
+</view>
+

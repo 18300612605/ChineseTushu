@@ -22,9 +22,15 @@
         <text class="nazhong">洒洒水</text>
       </view>
       <view class="biankuang"></view>
-      <view class="geleiNumberinner"></view>
+      <view class="geleiNumberinner">
+        <text class="shuliang">1221</text>
+        <text class="nazhong">洒洒水</text>
+      </view>
       <view class="biankuang"></view>
-      <view class="geleiNumberinner"></view>
+      <view class="geleiNumberinner">
+        <text class="shuliang">1221</text>
+        <text class="nazhong">洒洒水</text>
+      </view>
     </view>
     <view class="gerenlei">
       <image class="rightbian" src="../../tu/右-箭头.png"></image>

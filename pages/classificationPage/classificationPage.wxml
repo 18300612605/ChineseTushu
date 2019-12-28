@@ -1,0 +1,19 @@
+<!--pages/classificationPage/classificationPage.wxml-->
+<view class="container">
+  <view class="guige">
+    <view class="searchlan">
+      <view class="searchinput">
+        <image class="serachtu" src="../../tu/搜索.png"></image>
+        <input placeholder="搜索..." class="serachinputright"></input>
+      </view>
+    </view>
+  </view>
+  
+
+
+
+
+
+
+</view>
+

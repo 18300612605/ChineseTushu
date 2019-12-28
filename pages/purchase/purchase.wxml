@@ -1,8 +1,7 @@
-<!--pages/fenliepaihang/fenliepaihang.wxml-->
+<!--pages/purchase/purchase.wxml-->
 <view class="container">
-  <view class="dibukuang">
-    <view class="dibuinner" wx:for="{{4}}" wx:key="{{index}}">
-      <view class="dileft" bindtap="tiao">
+  <view class="dibuinner" wx:for="{{3}}" wx:key="{{index}}">
+      <view class="dileft">
         <image class="dileftimg" src="../../tu/paihang15.png"></image>
       </view>
       <view class="firight">
@@ -16,7 +15,19 @@
         </view>
       </view>
     </view>
-  </view>
-</view>
+    <view class="jiage">
+      <view class="zhongjia">
+        <text>总计(元):</text>
+        <text class="jinE">241.00</text>
+      </view>
+      <view class="yuE">
+        <text>余额(元):</text>
+        <text class="jinE">1375.00</text>
+      </view>
+    </view>
+    <view class="goumai">
+      <text class="goumaizi">购买</text>
+    </view>
 
-    
+
+</view>

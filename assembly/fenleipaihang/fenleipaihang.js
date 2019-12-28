@@ -5,7 +5,8 @@ Component({
    */
   properties: {
     xiaoshi:null,
-    listbie:null
+    listbie:null,
+    tiaozhuandingxiang:null
   },
   observers:{
   },

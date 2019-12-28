@@ -1,10 +1,18 @@
 {
   "pages": [
-    "pages/pinglun/pinglun",
-    "pages/shujieshao/shujieshao",
+    "pages/Rechargepage/Rechargepage",
+    "pages/balance/balance",
+    "pages/purchase/purchase",
+    "pages/setUppage/setUppage",
+    "pages/classificationPage/classificationPage",
     "pages/shouye/shouye",
-    "pages/fenliepaihang/fenliepaihang",
+    "pages/myBookshelf/myBookshelf",
     "pages/searchpage/searchpage",
+    "pages/oneBookAuthor/oneBookAuthor",
+    "pages/wholeAuthor/wholeAuthor",
+    "pages/shujieshao/shujieshao",
+    "pages/pinglun/pinglun",
+    "pages/fenliepaihang/fenliepaihang",
     "pages/mypage/mypage",
     "pages/tansuo/tansuo",
     "pages/index/index",
@@ -12,7 +20,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffffff"
+    "navigationBarBackgroundColor": "#2196f3",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "white"
   },
   "tabBar": {
     "list": [
@@ -21,16 +31,16 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/mypage/mypage",
-        "text": "我的"
-      },
-      {
         "pagePath": "pages/tansuo/tansuo",
         "text": "探索"
       },
       {
-        "pagePath": "pages/searchpage/searchpage",
-        "text": "搜索"
+        "pagePath": "pages/myBookshelf/myBookshelf",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "text": "我的"
       }
     ]
   },

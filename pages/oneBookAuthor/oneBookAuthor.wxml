@@ -1,0 +1,81 @@
+<!--pages/oneBookAuthor/oneBookAuthor.wxml-->
+<view class="container">
+  <view class="guiuge">
+    <view class="toou">
+      <view class="touxiang" style="background:url(../../tu/paihang6.png);background-size: 300rpx 300rpx;"></view>
+      <view class="touxiangrightce">
+        <view class="zuozhename">
+          <text>田小花</text>
+        </view>
+        <view class="zuozhedizhi">
+          <text class="dizhiguojia">中国</text>
+            <image class="dizhiinnerdian" src="../../tu/点.png"></image>
+          <text class="dizhidiqu">保康</text>
+        </view>
+        <view class="touxiangrightbutton">
+          <view class="fenxiangbutton">
+            <image class="fenxiangtu" src="../../tu/分享.png"></image>
+            <text>分享</text>
+          </view>
+          <view class="kongge"></view>
+          <view class="guanzhubutton">
+            <image class="guanzhutu" src="../../tu/加号.png"></image>
+            <text>关注</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="geleiNumber">
+      <view class="geleiNumberinner">
+        <text class="shuliang">1221</text>
+        <text class="nazhong">关注</text>
+      </view>
+      <view class="biankuang"></view>
+      <view class="geleiNumberinner">
+        <text class="shuliang">1221</text>
+        <text class="nazhong">粉丝</text>
+      </view>
+      <view class="biankuang"></view>
+      <view class="geleiNumberinner">
+        <text class="shuliang">1221</text>
+        <text class="nazhong">喜欢</text>
+      </view>
+    </view>
+    <view class="daibiaozuo">
+      <view class="diabiaoleft">
+        <text>代表作</text>
+      </view>
+      <view class="diabiaoright">
+        <text>总共 3 本书</text>
+      </view>
+    </view>
+    <view class="oneshu" wx:for="{{10}}" wx:key="{{index}}">
+      <view class="shulefttu">
+        <image src="../../tu/kehuan1.png"></image>
+      </view>
+      <view class="shuright">
+        <view class="shuname">
+          <text>鱼王</text>
+        </view>
+        <view class="shupingjia">
+          <image src="../../tu/星星.png"></image>
+          <image src="../../tu/星星.png"></image>
+          <image src="../../tu/星星.png"></image>
+          <image src="../../tu/星星.png"></image>
+          <image src="../../tu/星星.png"></image>
+          <text class="shupingfen">5.0</text>
+        </view>
+        <view class="shujieshao">
+          <text>全书由十三个内容相对独立的“叙事短片小说”组成, 全部围绕着人与自然的关系...</text>
+        </view>
+        <view class="shujiren">
+          <text>366 人阅读</text>
+        </view>
+      </view>
+    </view>
+
+
+
+
+  </view>
+</view>

@@ -1,0 +1,89 @@
+<!--pages/wholeAuthor/wholeAuthor.wxml-->
+<view class="container">
+  <view class="tou">
+    <view class="tousanfen">
+      <view class="dangedegao">  
+        <view class="toutu">
+          <image class="toutuxiang" src="../../tu/paihang5.png"></image>
+          <view class="toutupaiming tuotoutupaiming">
+            <text>2</text>
+          </view>
+          <image class="dierwangguan" src="../../tu/王冠 (1).png"></image>
+        </view>
+        <view class="touAuthor">
+          <text class="touAuthorzi">余秋雨</text>
+        </view>
+        <view class="touFans">
+          <text class="touFanszi">5869 粉丝</text>
+        </view>
+      </view>
+    </view>
+    <view class="tousanfen">
+      <view class="dangedegao">  
+        <view class="toutu diyitu">
+          <image class="toutuxiang diyitu" src="../../tu/paihang5.png"></image>
+          <view class="toutupaiming onetoutupaiming">
+            <text>1</text>
+          </view>
+          <image class="onewangguan" src="../../tu/王冠 (3).png"></image>
+        </view>
+        <view class="touAuthor">
+          <text class="touAuthorzi">余秋雨</text>
+        </view>
+        <view class="touFans">
+          <text class="touFanszi">5869 粉丝</text>
+        </view>
+      </view>
+    </view>
+    <view class="tousanfen">
+      <view class="dangedegao">  
+        <view class="toutu disantu">
+          <image class="toutuxiang disantu" src="../../tu/paihang5.png"></image>
+          <view class="toutupaiming threetoutupaiming">
+            <text>3</text>
+          </view>
+          <image class="threewangguan" src="../../tu/王冠 (2).png"></image>
+        </view>
+        <view class="touAuthor">
+          <text class="touAuthorzi">余秋雨</text>
+        </view>
+        <view class="touFans">
+          <text class="touFanszi">5869 粉丝</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="yigelunhui" wx:for="{{4}}" wx:key="{{index}}">
+    <view class="fenleiming">
+      <view class="leimingleft">
+        <text>热门作者</text>
+      </view>
+      <view class="leimingright">
+        <view class="youbiantupian">
+          <image class="jiantoutu" src="../../tu/右-箭头.png"></image>
+        </view>
+        <view class="youbianziti">
+          <text>查看全部</text>
+        </view>
+      </view>
+    </view>
+    <view class="budongkuang">
+      <view class="innerkedongkuang">
+        <view class="oneinner" wx:for="{{10}}" wx:key="{{index}}">
+          <view class="listinnertu" style="background:url('../../tu/朋友圈.png');background-size: 140rpx 140rpx;"></view>
+          <view class="listinnerzuozhename">
+            <text>王媛媛</text>
+          </view>
+          <view class="guanzhu"></view>
+          <!-- <view class="yiguanzhu">
+            <text>已关注</text>
+          </view> -->
+          <view class="weiguanzhu">
+            <image class="guanzhujiahao" src="../../tu/加号.png"></image>
+            <text>关注</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

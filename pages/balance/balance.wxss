@@ -1,0 +1,38 @@
+/* pages/balance/balance.wxss */
+.container{
+  background:#21272e;
+}
+.tou{
+  width: 90%;
+  height: 300rpx;
+  margin-top: 40rpx;
+  background: #2b323b;
+  color: white;
+  margin-bottom: 700rpx;
+}
+.giuge{
+  width: 90%;
+  height: 260rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  margin-bottom:20rpx;
+}
+.biaoti{
+  display: block;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 40rpx;
+}
+.shuru{
+  height: 160rpx;
+  font-size: 80rpx;
+}
+.goumai{
+  height: 140rpx;
+  width: 100%;
+  background: #fb6894;
+  font-size: 40rpx;
+  color: white;
+  text-align: center;
+  line-height: 140rpx;
+}

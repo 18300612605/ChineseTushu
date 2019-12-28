@@ -1,0 +1,42 @@
+/* pages/setUppage/setUppage.wxss */
+.container{
+  background: #21272e;
+  height: 1200rpx;
+}
+.guigeyi{
+  width: 90%;
+  margin: 0 auto;
+}
+.onexiang{
+  width: 100%;
+  overflow: hidden;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #dcdeea;
+}
+.rightce{
+  float: right;
+}
+.righttu{
+  height: 40rpx;
+  width: 40rpx;
+}
+.leftce{
+  color: #dcdeea;
+  overflow: hidden;
+}
+.rightcezi{
+  float: left;
+}
+.switchbutton{
+  height: 60rpx;
+  width:100rpx;
+  border-radius: 60rpx;
+  background: #dcdeea;
+}
+.baidian{
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 60rpx;
+  background: white;
+}

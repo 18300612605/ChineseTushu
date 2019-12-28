@@ -1,0 +1,28 @@
+/* pages/classificationPage/classificationPage.wxss */
+.container{
+  background: #21272e;
+}
+.guige{
+  width: 90%;
+  margin: 0 auto;
+}
+.searchlan{
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+.searchinput{
+  width: 100%;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background: #6b6a6aa6;
+  display: flex;
+}
+.serachtu{
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+}
+.serachinputright{
+  flex: 1;
+  height: 80rpx;
+}

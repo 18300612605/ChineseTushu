@@ -1,0 +1,184 @@
+/* pages/wholeAuthor/wholeAuthor.wxss */
+.container{
+  background: #21272e;
+}
+.yigelunhui{
+  width: 100%;
+}
+.tou{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.tousanfen{
+  flex:1;
+  height: 500rpx;
+  position: relative;
+}
+.dangedegao{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+.toutu{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 100rpx;
+  border: 4rpx solid white;
+  margin-bottom: 40rpx;
+  position: relative;
+}
+.dierwangguan{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: -80rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.onewangguan{
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  top: -90rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.threewangguan{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  top: -70rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.toutupaiming{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 30rpx;
+  border: 4rpx solid white;
+  color: white;
+  position: absolute;
+  bottom: -24rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-right: 2rpx;
+}
+.onetoutupaiming{
+  background: #fdaf01;
+}
+.tuotoutupaiming{
+  background: #f44380;
+}
+.threetoutupaiming{
+  background: #00a2ff;
+}
+.toutupaiming>text{
+  display: block;
+  text-align: center;
+  line-height: 40rpx;
+}
+.diyitu{
+  width: 200rpx;
+  height: 200rpx;
+  border: 4rpx solid white;
+}
+.disantu{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 80rpx;
+}
+.toutuxiang{
+  width: 100%;
+  height: 100%;
+  border-radius: 90rpx;
+}
+.touAuthorzi{
+  color: #f44380;
+  font-weight: bold;
+}
+.touFanszi{
+  color: #a2a8ba;
+}
+.fenleiming{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  color: white;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  border-top: 2rpx solid #343945;
+}
+.leimingleft{
+  float: left;
+  font-size: 36rpx;
+}
+.leimingright{
+  overflow: hidden;
+}
+.youbiantupian{
+  float: right;
+}
+.jiantoutu{
+  width: 40rpx;
+  height: 40rpx;
+}
+.youbianziti{
+  float: right;
+  color: #a2a8ba;
+  font-size: 30rpx;
+}
+.budongkuang{
+  width: 100%;
+  height: 300rpx;
+  overflow: scroll;
+  padding-bottom: 80rpx;
+}
+.innerkedongkuang{
+  width: 1100rpx;
+  height: 300rpx;
+  overflow: hidden;
+}
+.oneinner{
+  width: 140rpx;
+  height: 300rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  float: left;
+}
+.listinnertu{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+}
+.listinnerzuozhename{
+  text-align: center;
+  color: white;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.yiguanzhu{
+  height: 60rpx;
+  text-align: center;
+  border:2rpx solid white;
+  border-radius: 10rpx;
+  color: white;
+  line-height: 60rpx;
+}
+.weiguanzhu{
+  height: 40rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  border-radius: 10rpx;
+  color: white;
+  background: #478ce0;
+}
+.guanzhujiahao{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+  margin-left: 14rpx;
+}

@@ -1,11 +1,11 @@
-// pages/fenliepaihang/fenliepaihang.js
+// pages/wholeAuthor/wholeAuthor.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    liebie:"科幻"
+
   },
 
   /**
@@ -62,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  taishujieshao(){
-    wx.navigateTo({
-      url: '/pages/shujieshao/shujieshao',
-    })
   }
 })

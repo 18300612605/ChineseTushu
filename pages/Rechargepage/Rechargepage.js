@@ -1,11 +1,11 @@
-// pages/fenliepaihang/fenliepaihang.js
+// pages/Rechargepage/Rechargepage.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    liebie:"科幻"
+    xiyibude:false
   },
 
   /**
@@ -63,9 +63,16 @@ Page({
   onShareAppMessage: function () {
 
   },
-  taishujieshao(){
-    wx.navigateTo({
-      url: '/pages/shujieshao/shujieshao',
-    })
+  xiayibudianji(){
+    console.log(this.data.xiyibude)
+    if (this.data.xiyibude === false) {
+      this.setData({
+        xiyibude:true
+      })
+    }else{
+      this.setData({
+        xiyibude: false
+      })
+    }
   }
 })

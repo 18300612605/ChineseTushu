@@ -15,14 +15,14 @@
     <fenleipaihang listbie="{{fenliepaihang}}"></fenleipaihang>
   </view>
   <view class="manwidth">
-    <panhanglist list="{{fenlielist}}"></panhanglist>
+    <panhanglist list="{{fenlielist}}" tiaozhuandingxiang="{{shujileipage}}"></panhanglist>
   </view>
 
   <view class="allWidth">
-    <fenleipaihang listbie="{{zuozhepaihang}}"></fenleipaihang>
+    <fenleipaihang listbie="{{zuozhepaihang}}" tiaozhuandingxiang="zuozhepage"></fenleipaihang>
   </view>
   <view class="manwidth">
-    <panhanglist list="{{zuozhelist}}"></panhanglist>
+    <panhanglist list="{{zuozhelist}}" tiaozhuandingxiang="{{onezuozhepage}}"></panhanglist>
   </view>
 
   <view class="allWidth jiadibian">

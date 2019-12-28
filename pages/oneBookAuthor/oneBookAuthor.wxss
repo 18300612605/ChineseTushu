@@ -1,0 +1,160 @@
+/* pages/oneBookAuthor/oneBookAuthor.wxss */
+.container{
+  background: #21272e;
+}
+.guiuge{
+  width: 90%;
+  margin: 0 auto;
+}
+.toou{
+  overflow: hidden;
+}
+.touxiang{
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 150rpx;
+  float: left;
+}
+.touxiangrightce{
+  height:300rpx;
+}
+.zuozhename{
+  margin-top: 40rpx;
+  color: white;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.zuozhedizhi{
+  overflow: hidden;
+  color: white;
+}
+.dizhiguojia,.dizhidiqu{
+  float: left;
+}
+.dizhiinnerdian{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+}
+.touxiangrightbutton{
+  display: flex;
+}
+.kongge{
+  width: 20rpx;
+}
+.fenxiangbutton{
+  flex: 1;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  border: 2rpx solid #545d66;
+  border-radius: 10rpx;
+  margin-top: 60rpx;
+}
+.fenxiangtu,.guanzhutu{
+  height: 40rpx;
+  width: 40rpx;
+  float: left;
+  margin-left: 30rpx;
+}
+.guanzhubutton{
+  flex: 1;
+  height: 40rpx;
+  background: blue;
+  border: 2rpx solid blue;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  border-radius: 10rpx;
+  margin-top: 60rpx;
+}
+.geleiNumber{
+  height: 120rpx;
+  border-radius: 20rpx;
+  background: #2b323b;
+  margin-bottom: 80rpx;
+  display: flex;
+}
+.geleiNumberinner{
+  flex: 1;
+  height: 90rpx;
+  margin-top: 15rpx;
+}
+.biankuang{
+  width: 4rpx;
+  height: 90rpx;
+  margin-top: 15rpx;
+  background: #363c45;
+}
+.shuliang{
+  font-size: 40rpx;
+  display: block;
+  color: white;
+  text-align: center;
+}
+.nazhong{
+  font-size: 24rpx;
+  display: block;
+  color: #bfbfbf;
+  text-align: center;
+}
+.daibiaozuo{
+  overflow: hidden;
+  margin-bottom: 10rpx;
+}
+.diabiaoleft{
+  font-size: 40rpx;
+  float: left;
+  color: white;
+}
+.diabiaoright{
+  float: right;
+  color: #478ce0;
+}
+.oneshu{
+  display: flex;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  border-bottom: 2rpx solid #2b323b;
+}
+.shulefttu>image{
+  width: 220rpx;
+  height: 320rpx;
+  border-radius: 40rpx;
+}
+.shuright{
+  flex: 1;
+  height: 320rpx;
+  margin-left: 20rpx;
+  position: relative;
+}
+.shuname{
+  font-size: 40rpx;
+  color: white;
+  margin-top: 20rpx;
+}
+.shupingjia{
+  overflow: hidden;
+  font-size: 40rpx;
+  line-height: 40rpx;
+  margin-top: 10rpx;
+}
+.shupingjia>image{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+}
+.shupingjia>text{
+  color: #ffce44;
+  margin-left: 10rpx;
+}
+.shujieshao{
+  font-size:26rpx;
+  color: #808695;
+}
+.shujiren{
+  position: absolute;
+  bottom: 20rpx;
+  color: #4587d7;
+}

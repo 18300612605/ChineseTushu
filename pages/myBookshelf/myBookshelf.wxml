@@ -1,0 +1,34 @@
+<!--pages/myBookshelf/myBookshelf.wxml-->
+<view class="container">
+  <view class="guige">
+    <view class="remen">
+      <image src="../../tu/右-箭头.png"></image>
+      <text class="searchquanbu">查看全部</text>
+      <text class="remensearch">正在阅读</text>
+    </view>
+    <view class="remenshu">
+      <view class="oneshu" wx:for="{{list}}" wx:key="{{index}}">
+        <image class="oneshutu" src="{{item.tu}}"></image>
+        <text class="shuming">{{item.shuname}}</text>
+        <text class="renming">{{item.zuoname}}</text>
+      </view>
+    </view>
+
+    <view class="remen">
+      <image src="../../tu/右-箭头.png"></image>
+      <text class="searchquanbu">查看全部</text>
+      <text class="remensearch">未读</text>
+    </view>
+    <view wx:for="{{2}}" wx:key="{{index}}">
+      <view class="remenshu">
+        <view class="oneshu" wx:for="{{list}}" wx:key="{{index}}">
+          <image class="oneshutu" src="{{item.tu}}"></image>
+          <text class="shuming">{{item.shuname}}</text>
+          <text class="renming">{{item.zuoname}}</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>
+

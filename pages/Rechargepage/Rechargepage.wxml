@@ -1,0 +1,47 @@
+<!--pages/Rechargepage/Rechargepage.wxml-->
+<view class="container">
+  <view class="tou">
+    <view class="giuge">
+      <text class="biaoti">充值余额(元)</text>
+      <input class="shuru"></input>
+    </view>
+  </view>
+  <view class="goumai" bindtap="xiayibudianji">
+    <text class="goumaizi">下一步</text>
+  </view>
+
+  <view class="motaikuang" wx:if="{{xiyibude}}"></view>
+  <view class="fukuanmian"wx:if="{{xiyibude}}">
+    <view class="guigetou">
+      <view class="chahaohang">
+        <view class="chahaowai" bindtab="xiayibudianji">
+          <image class="chahao" src="../../tu/差号.png"></image>
+        </view>
+      </view>
+      <view class="queren">
+        <text class="querenzi">确认付款(元)</text>
+      </view>
+      <input class="quereninput"></input>
+      <view class="dingdanxixi">
+        <text class="dingdanxixizi">订单信息</text>
+        <text class="dingdanxixichongzhi">充值</text>
+      </view>
+      
+      <view class="dingdanxixi">
+        <text class="dingdanxixizi">付款方式</text>
+        <image class="fangzhitu" src="../../tu/右-箭头.png"></image>
+        <text class="dingdanxixichongzhi">中国银行卡(0288)</text>
+      </view>
+    </view>
+    <view class="zhiwenyanzheng">
+      <image class="zhiwen" src="../../tu/指纹.png"></image>
+      <view class="zhewenzi">
+        <text>指纹验证或</text>
+        <text class="zhiwenhong">输入密码</text>
+      </view>
+    </view>
+  </view>
+
+
+
+</view>
